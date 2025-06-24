@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Selector Global: Aplica a toda la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente legible */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    padding: 0; /* Elimina el relleno predeterminado del navegador */
+    background-color: #f4f4f4; /* Un color de fondo suave para toda la página */
+    color: #333; /* Color de texto general para la página */
+}
+
+/* Otro selector por etiqueta: Todos los párrafos */
+p {
+    margin-bottom: 1em; /* Un poco de espacio debajo de cada párrafo */
+    text-align: center; /* Justifica el texto de los párrafos */
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #a3b18a; /* Un color de fondo verde para el encabezado */
+    color: #fff; /* Texto blanco en el encabezado */
+    padding: 20px 0; /* Relleno superior e inferior, 0 a los lados */
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente para el título principal */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #10002b; /* Un color morado oscuro para mi nombre */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente para el subtítulo */
+    margin-bottom: 20px;    
+    font-style: italic; /* Frase descriptiva en cursiva */
+}
+
+header img {
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 3px solid #87CEEB; /* Borde alrededor de la imagen */
+    margin-top: 10px; /* Espacio encima de la imagen */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: justify;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px; /* Espacio encima del pie de página */
+}
+
+footer p {
+    margin: 5px 0; /* Menos margen para los párrafos del footer */
+}
+/* Selector de Clase: Para las secciones de contenido */
+.contenido-seccion {
+    background-color: #fff; /* Fondo blanco para las secciones */
+    margin: 20px auto; /* Centra las secciones y da margen arriba/abajo */
+    padding: 30px; /* Relleno interno de las secciones */
+    max-width: 800px; /* Ancho máximo para que no se extienda demasiado */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+/* Estilos generales para títulos */
+h2 {
+    color: #0056b3; /* Un color azul para los subtítulos */
+    text-align: center; /* Centra los títulos de sección */
+    margin-bottom: 25px; /* Espacio debajo de los h2 */
+    font-size: 2em;
+}
+
+/* (h1 ya está estilizado en el header) */
+/* Estilos para listas (habilidades o contactos) */
+ul {
+    list-style-type: none; /* Elimina las viñetas predeterminadas */
+    padding: 0;
+    text-align: center; /* Centra los elementos de la lista */
+}
+
+ul li {
+    background-color: #e9ecef; /* Un fondo suave para cada elemento */
+    margin: 8px auto; /* Margen para separar elementos */
+    padding: 10px 15px; /* Relleno dentro de cada elemento */
+    border-radius: 5px; /* Bordes redondeados */
+    max-width: 300px; /* Ancho máximo para los elementos de la lista */
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+ul li:hover {
+    background-color: #d8dee4; /* Cambia de color al pasar el mouse */
+}
+/* Selector por ID: Para la lista de contacto */
+#lista-contacto li {
+    margin-bottom: 15px; /* Más espacio entre los elementos de contacto */
+}
+
+#lista-contacto a {
+    color: #007bff; /* Color azul para los enlaces */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s ease; /* Transición suave para hover */
+}
+
+#lista-contacto a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+    text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+#imagen-personal {
+    border-radius: 10px;
+    margin-top: 15px;
+    display: block; // Para centrarla con margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
